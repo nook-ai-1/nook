@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Hide scrollbar visually but keep functional for filter rows */
+.no-scrollbar::-webkit-scrollbar { height: 4px; }
+.no-scrollbar::-webkit-scrollbar-thumb { background: #e8e1d2; border-radius: 2px; }
